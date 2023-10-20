@@ -8,8 +8,9 @@
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.sorce>21</maven.compiler.sorce>
+    <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
+    <mokito.version>5.6.0</mokito.version>
   </properties>
   <dependencies>
     <dependency>
@@ -21,13 +22,13 @@
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
-      <version>5.6.0</version>
+      <version>${mokito.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-junit-jupiter</artifactId>
-      <version>5.6.0</version>
+      <version>${mokito.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -58,9 +59,14 @@
       <artifactId>jakarta.servlet.jsp.jstl</artifactId>
       <version>3.0.1</version>
     </dependency>
-
-
+    <dependency>
+      <groupId>org.mindrot</groupId>
+      <artifactId>jbcrypt</artifactId>
+      <version>0.4</version>
+    </dependency>
   </dependencies>
+
+
   <build>
     <plugins>
       <plugin>
@@ -68,7 +74,6 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.1.2</version>
       </plugin>
-
     </plugins>
   </build>
 </project>
