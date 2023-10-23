@@ -1,6 +1,7 @@
 package controllers.member;
 
 import static commons.ScriptUtil.*;
+
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -27,7 +28,7 @@ public class JoinController extends HttpServlet {
             JoinService service = ServiceManager.getInstance().joinService();
             service.join(req);
 
-            String url = req.getContextPath()+"/member/login";
+            String url = req.getContextPath() + "/member/login";
             go(resp, url, "parent");
 
         } catch (RuntimeException e) {

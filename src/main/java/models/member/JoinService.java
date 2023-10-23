@@ -21,9 +21,6 @@ public class JoinService {
         memberDao.register(member);
     }
 
-
-
-
     public void join(HttpServletRequest request){
         String _agree = Objects.requireNonNullElse(request.getParameter("agree"),"false");
         boolean agree = _agree.equals("true") ? true : false;
