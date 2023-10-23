@@ -52,7 +52,7 @@
      - 미로그인 상태
        - 회원가입(/member/join), 로그인(/member/logi) 링크
    - 로그아웃
-    - 
+    - /member/logout
     - Controller
       - controllers/member/LogoutController.java
       - GET, POST 메서드 상관 없이 기능할 수 있도록 처리
