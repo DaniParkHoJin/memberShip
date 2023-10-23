@@ -60,6 +60,14 @@
 ## 완성 화면
 ### 회원가입
 
+![메인페이지](https://raw.githubusercontent.com/DaniParkHoJin/memberShip/master/images/join.png)
+
+
 ### 로그인
 
+![메인페이지](https://raw.githubusercontent.com/DaniParkHoJin/memberShip/master/images/login.png)
+
+
 ### 메인페이지
+
+![메인페이지](https://raw.githubusercontent.com/DaniParkHoJin/memberShip/master/images/main.png)
