@@ -2,7 +2,7 @@ package models.member;
 
 import lombok.Builder;
 import lombok.Data;
-import org.junit.jupiter.api.DisplayName;
+
 
 @Builder @Data
 public class Member {
