@@ -32,8 +32,15 @@
    - 로그인 처리(세션에 회원 정보를 저장)
 5. 기능 통합
    - 회원 가입
-   - Controller : /member/join
-     - controllers/member/joinController 
-     - Get : 회원 가입 양식
-     - POST : 회원 가입 처리
-   - view : WEB-INF/templates/member/join.jsp
+     - Controller : /member/join
+       - controllers/member/joinController 
+       - Get : 회원 가입 양식
+       - POST : 회원 가입 처리
+     - View : WEB-INF/templates/member/join.jsp
+
+   - 로그인
+     - Controller : /member/login
+       - controllers/member/LoginController.java
+       - Get : 로그인 양식
+       - POST : 로그인 처리
+     - View : WEB-INF/templates/member/login.jsp
